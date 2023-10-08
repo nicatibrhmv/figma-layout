@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+}
+
+h2 {
+    font-family: Roboto Slab;
+}
+
+img {
+    width: 100%;
+}
+
+.information-course {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 173px;
+}
+
+.information-course-image {
+    max-width: 25.5vw;
+}
+
+.information-course-text h2 {
+    font-family: Roboto Slab;
+    font-size: 3.8vw;
+    font-weight: 700;
+    line-height: 101.385%;
+    margin-bottom: 32px;
+}
+
+.information-course-text h2:hover {
+    color: rebeccapurple;
+}
+
+.information-course-text {
+    width: 46vw;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.information-list-image {
+    max-width: 18vw;
+}
+
+.information-list {
+    display: flex;
+    margin-top: 94px;
+}
+
+.information-list-text {
+    display: flex;
+    gap: 5.55vw;
+    margin: auto;
+}
+
+.information-list-textchild {
+    max-width: 10.4vw;
+    font-size: 1.25vw;
+    line-height: 130%;
+}
+
+.information-list-textchild h3 {
+    font-size: 1.74vw;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.information-list-textchild h3:hover {
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    color: rebeccapurple;
+    font-weight: 500;
+}
+
+@media (max-width: 1279px) {
+    .information-course {
+        margin-top: 100.41px;
+    }
+
+    .information-course-image {
+        max-width: 21.82vw;
+    }
+
+    .information-course-text h2 {
+        font-size: 3.84vw;
+    }
+
+    .information-course-text {
+        max-width: 46vw;
+        font-size: 1.68vw;
+    }
+
+    .information-list-image {
+        max-width: 134.367px;
+    }
+
+    .information-list {
+        display: flex;
+        margin-top: 36px
+    }
+
+    .information-list-text {
+        gap: 6.6vw;
+    }
+
+    .information-list-textchild {
+        font-size: 1.32vw;
+        max-width: 10.43vw;
+    }
+
+    .information-list-textchild h3 {
+        font-size: 1.8vw;
+        margin-bottom: 4px;
+    }
+}
+
+@media (max-width: 991px) {
+    .information-course {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .information-course-image {
+        min-width: 48vw;
+    }
+
+    .information-course-text h2 {
+        font-size: 7vw;
+    }
+
+    .information-course-text {
+        font-size: 3.2vw;
+    }
+
+    .information-list-image {
+        display: none;
+    }
+
+    .information-list {
+        margin-top: 45px
+    }
+
+    .information-list-text {
+        width: 270px;
+        flex-wrap: wrap;
+        margin-inline: 0;
+    }
+
+    .information-list-textchild {
+        font-size: 2.93vw;
+        max-width: 23.2vw;
+    }
+
+    .information-list-textchild h3 {
+        font-size: 4vw;
+        margin-bottom: 4px;
+    }
+}
